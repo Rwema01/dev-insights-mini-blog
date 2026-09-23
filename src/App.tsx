@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+import PostList from "./components/PostList";
 
 function App() {
   return (
     <div>
       <Header />
-      <p style={{ padding: "2rem" }}>Mini Blog — under construction</p>
+      <PostList />
     </div>
   );
 }
